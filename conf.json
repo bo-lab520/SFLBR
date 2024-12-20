@@ -1,0 +1,31 @@
+{
+	"method" : "fedavg",
+
+	"model_name" : "resnet50",
+
+	"type" : "cifar100",
+
+	"clients" : 10,
+
+	"candidates" : 10,
+
+	"poisoner_rate" : 0,
+
+	"poison_type" : "ALIE",
+	
+	"global_epochs" : 120,
+	
+	"local_epochs" : 3,
+	
+	"batch_size" : 16,
+	
+	"lr" : 0.1,
+
+	"g_lr": 1,
+	
+	"momentum" : 0.0001,
+
+	"dirichlet_alpha" : 0.55,
+
+	"alpha" : 0.001
+}
